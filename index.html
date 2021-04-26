@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <section class="container">
+    <h2>Controle de finanças</h2>
+    <header>
+      <article class="info">
+        <div class="balance">
+          <h4 class="balance-title">Saldo</h4>
+          <h1 class="balance-value">R$0.00</h1>
+        </div>
+        <div class="inc-exp-container">
+          <div class="money income">
+            <h4 class="money-title inc">Receita</h4>
+            <p class="money-plus">R$0.00</p>
+          </div>
+          <div class="money expence">
+            <h4 class="money-title exp">Despesa</h4>
+            <p class="money-minus">R$0.00</p>
+          </div>
+        </div>
+      </article>
+    </header>
+    <main>
+      <article>
+        <h3 class="article-title">Transações</h3>
+        <ul class="transactions">
+          <li class="transactions-item plus">
+            <p class="transactions-name">
+              Value
+            </p>
+            <p class="transactions-value">
+              R$0.00
+            </p>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <h3 class="article-title">Nova Transação</h3>
+        <form accept-charset="utf-8">
+          <div class="transaction new-transaction">
+            <label for="transaction-name">
+              Descrição
+            </label>
+            <input
+              type="text"
+              id="transaction-name"
+              required />
+          </div>
+          <div class="transaction transaction-value">
+            <label for="input-transaction-value">
+              Valor da transação
+            </label>
+            <input
+              type="number"
+              step="0.01"
+              id="transaction-amount"
+              required />
+          </div>
+          <button class="btn" type="submit">
+            Adicionar
+          </button>
+        </form>
+      </article>
+    </main>
+    <footer></footer>
+  </section>
+  <script
+    src="app.js"
+    type="text/javascript"
+    charset="utf-8">
+  </script>
+</body>
+
+</html>
