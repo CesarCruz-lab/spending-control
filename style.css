@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,500,700&display=swap');
 
 :root {
-  --color-main: #FFA806;
-  --color-a: #4488DD;
-  --color-gray: #7E8E92;
+  --color-main: #ffa806;
+  --color-a: #4488dd;
+  --color-gray: #7e8e92;
   --color-text: #444;
-  --color-income: #0FBD8E;
-  --color-expence: #D00B0B;
+  --color-income: #0fbd8e;
+  --color-expence: #d00b0b;
   --box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
 }
 
@@ -19,7 +19,7 @@
 
 body {
   height: 100vh;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .container {
@@ -74,7 +74,7 @@ body {
 }
 
 .inc-exp-container .money:nth-child(1) {
-  border-right: 2px solid #D2D2D2;
+  border-right: 2px solid #d2d2d2;
 }
 
 .money-title {
@@ -104,8 +104,8 @@ article ul,
 article form {
   /* margin: 20px 0; */
   padding: 20px;
-  background-color: #FFF;
-  box-shadow: inset var(--box-shadow)
+  background-color: #fff;
+  box-shadow: inset var(--box-shadow);
 }
 
 .article-title {
@@ -115,7 +115,7 @@ article form {
 
 .transactions {
   max-height: 600px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .transactions-item {
@@ -128,7 +128,7 @@ article form {
 }
 
 .transactions-item:nth-child(n + 2) {
-  border-top: 2px solid #EFEFEF;
+  border-top: 2px solid #efefef;
 }
 
 .transactions-name {
@@ -138,8 +138,7 @@ article form {
 .transactions-value {
   min-width: max-content;
   max-width: 50%;
-  overflow: scroll;
-  
+  overflow: auto;
 }
 
 .transactions-name,
@@ -164,19 +163,18 @@ article form {
   padding: 8px;
   border: none;
   outline: none;
-  background-color: #D62B2B;
-  color: #FFF;
+  background-color: #d62b2b;
+  color: #fff;
   box-shadow: var(--box-shadow);
 }
 
 .btn-remove:active {
-  background-color: #AC1F1F;
+  background-color: #ac1f1f;
 }
 
 .transactions-item:hover > .btn-remove {
   display: block;
 }
-
 
 form {
   width: 90vw;
@@ -203,7 +201,7 @@ form .transaction input {
   width: 100%;
   padding: 7px;
   border: none;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   box-shadow: inset var(--box-shadow);
 }
 
@@ -212,11 +210,11 @@ form .btn {
   margin-top: 15px;
   padding: 10px 55px;
   border: none;
-  background-color: #855ED0;
+  background-color: #855ed0;
   outline: none;
-  color: #FFF;
+  color: #fff;
 }
 
 form .btn:active {
-  background-color: #501A8C;
+  background-color: #501a8c;
 }
